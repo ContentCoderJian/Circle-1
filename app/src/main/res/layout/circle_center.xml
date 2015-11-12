@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="120dp"
+    android:layout_height="120dp"
+    android:tag="center">
+
+    <LinearLayout
+        android:id="@+id/circle_little_ll"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/selector_circle_center_bg2"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!-- 一级分类图标 -->
+
+        <ImageView
+            android:id="@+id/circle_little_icon"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_launcher" />
+
+        <!-- 一级分类名称 -->
+
+        <TextView
+            android:id="@+id/circle_little_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6.5dp"
+            android:duplicateParentState="true"
+            android:text="便民服务"
+            android:textColor="@drawable/text_color_circle_center"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+</RelativeLayout>

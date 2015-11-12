@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 按下 -->
+    <item android:state_pressed="true"><shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+            <solid android:color="@android:color/white" />
+        </shape></item>
+    <!-- 选中 -->
+    <item android:state_selected="true"><shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+            <solid android:color="@android:color/white" />
+        </shape></item>
+
+    <!-- 默认 -->
+    <item><shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+            <solid android:color="@android:color/white" />
+        </shape></item>
+
+</selector>
